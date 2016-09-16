@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block blogpost %}
+<span>{{error}}</span>
+{% for p in posts %}
+    <div class="post">
+        <div class="post-subject">{{p.subject}}</div>
+        <pre class="post-content">{{p.content}}</pre>
+    </div>
+{% endfor %}
+{% endblock %}

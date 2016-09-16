@@ -10,3 +10,29 @@ indexes:
 # automatically uploaded to the admin console when you next deploy
 # your application using appcfg.py.
 
+- kind: Art
+  properties:
+  - name: created
+    direction: desc
+  - name: Art
+  - name: title
+
+- kind: Art
+  properties:
+  - name: created
+    direction: desc
+  - name: art
+  - name: title
+
+- kind: Art
+  properties:
+  - name: created
+    direction: desc
+  - name: post
+  - name: title
+
+- kind: Art
+  properties:
+  - name: created
+    direction: desc
+  - name: title

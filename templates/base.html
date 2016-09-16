@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="/static/main.css" />
+        <title>build-a-blog</title>
+    </head>
+
+    <body>
+        <a href="/newpost" class="main-title"><h1>Blog!</h1></a>
+
+        <div id="content">
+        {% block blogpost %}
+        {% endblock %}
+        </div>
+    </body>
+</html>
